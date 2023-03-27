@@ -20,7 +20,7 @@ class AnimatedHoverBackground extends StatelessWidget {
           children: [
             RiveAnimation.asset("packages/animated_hover_background/anim/background_anim.riv",fit: BoxFit.fill,),
             ClipRRect(
-              borderRadius: BorderRadius.only(topLeft: Radius.circular(24),topRight: Radius.circular(24)),
+              // borderRadius: BorderRadius.only(topLeft: Radius.circular(24),topRight: Radius.circular(24)),
               child: BackdropFilter(
                 filter: ImageFilter.blur(
                   sigmaX: 100.0,
