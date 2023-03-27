@@ -16,7 +16,10 @@ Excited to share my first ever contribution to the community! To make your dashb
 
 ## Features
 
-https://github.com/RakeshGowda199/animated-hover-background/blob/main/animated_hover_background.mp4
+
+https://user-images.githubusercontent.com/56824729/227963316-86b862e6-31cb-4f42-91f4-a86bd3eedbf0.mp4
+
+
 
 ## Getting started
 
@@ -28,7 +31,6 @@ dependencies:
 ```
 
 ## Usage
-
 
 ```dart
 AnimatedHoverBackground(YourWidget());
