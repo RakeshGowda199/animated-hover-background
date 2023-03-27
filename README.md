@@ -11,29 +11,31 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Hey Folks,
+Excited to share my first ever contribution to the community! To make your dashboards more livelier using our animated widget.Our animated backgrounds are created by experienced designers and animators, ensuring that each animation is both visually impressive and technically sound. 
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+
+https://user-images.githubusercontent.com/56824729/227963316-86b862e6-31cb-4f42-91f4-a86bd3eedbf0.mp4
+
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+In your pubspec.yaml:
+
+```dart
+dependencies:
+  animated_hover_background: any
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+AnimatedHoverBackground(YourWidget());
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Our animated backgrounds are created by experienced designers and animators, ensuring that each animation is both visually impressive and technically sound.So why settle for static backgrounds when you can add a touch of magic to your projects with our animated backgrounds? Download our package today and take your projects to the next level!
