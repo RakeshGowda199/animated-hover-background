@@ -1,7 +1,9 @@
 name: animated_hover_background
 description: A new Flutter project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/RakeshGowda199/animated-hover-background
+repository: https://github.com/RakeshGowda199/animated-hover-background
+
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
@@ -11,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  rive: any
+  rive: ^0.10.3
 
 dev_dependencies:
   flutter_test:
