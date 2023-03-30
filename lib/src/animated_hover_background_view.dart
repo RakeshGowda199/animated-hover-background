@@ -6,10 +6,10 @@ import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 
 class AnimatedHoverBackground extends StatelessWidget {
-  Widget child;
-  Color? bgColor;
-   AnimatedHoverBackground({Widget child,Key? key}) {
-     this.child=child;
+  Widget? widget_child;
+
+   AnimatedHoverBackground({required Widget child,Key? key}) {
+     this.widget_child=child;
    }
 
   @override
@@ -32,7 +32,7 @@ class AnimatedHoverBackground extends StatelessWidget {
                 child: Container(
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height,
-                  child: child,
+                  child: widget_child,
 
                 ),
               ),
