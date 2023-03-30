@@ -8,8 +8,8 @@ import 'package:rive/rive.dart';
 class AnimatedHoverBackground extends StatelessWidget {
   Widget child;
   Color? bgColor;
-   AnimatedHoverBackground(this.child,{Color backgroundColor=Colors.white,Key? key}) {
-     this.bgColor=backgroundColor;
+   AnimatedHoverBackground({Widget child,Key? key}) {
+     this.child=child;
    }
 
   @override
