@@ -7,12 +7,15 @@ import 'package:rive/rive.dart';
 
 class AnimatedHoverBackground extends StatelessWidget {
   Widget child;
-   AnimatedHoverBackground(this.child,{Key? key}) : super(key: key);
+  Color? bgColor;
+   AnimatedHoverBackground(this.child,{Color backgroundColor=Colors.white,Key? key}) {
+     this.bgColor=backgroundColor;
+   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: this.bgColor,
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
