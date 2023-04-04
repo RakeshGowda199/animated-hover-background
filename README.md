@@ -19,6 +19,9 @@ Excited to share my first ever contribution to the community! To make your dashb
 
 https://user-images.githubusercontent.com/56824729/227963316-86b862e6-31cb-4f42-91f4-a86bd3eedbf0.mp4
 
+![demo_home](https://user-images.githubusercontent.com/56824729/229801694-29860b58-2a2d-4570-b23b-8d97b5ed0181.gif)
+
+
 
 
 ## Getting started
