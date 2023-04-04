@@ -1,0 +1,1585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		031102A34D0786DC73AB631444AA8808 /* rive_common-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 476D66293D7305ED1596BEBD98598DAF /* rive_common-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		084E05226133A3AC8D133800F59F6ED0 /* hb-ot-shape-complex-khmer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 73FDA6CD2C8FDF256836BE52E26E05F4 /* hb-ot-shape-complex-khmer.cc */; };
+		08B28875107CA17B93919E73FC366130 /* hb-ot-color.cc in Sources */ = {isa = PBXBuildFile; fileRef = 610E98849EE96D07D0DFBF4042689BC9 /* hb-ot-color.cc */; };
+		0CB5898AFB5EAE2BA0DD76D634D17F5D /* hb-ot-cff1-table.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC99F5D09E1F278D79DEB5B9636AEF83 /* hb-ot-cff1-table.cc */; };
+		103E72EAEEEEF0493D021E86FBBA65B8 /* hb-ot-shape-complex-myanmar.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29514B63BEF999292D47216FDDC4807D /* hb-ot-shape-complex-myanmar.cc */; };
+		133379EAEAAD1576472704443CD0CDE2 /* SheenBidi.c in Sources */ = {isa = PBXBuildFile; fileRef = 632307E7E0AAF6D6422132C67C709937 /* SheenBidi.c */; };
+		145645E36D4DD4F6BC9F71AB4F6F73D6 /* rive_common-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E1419F091AE65D86639908673C2327 /* rive_common-dummy.m */; };
+		1523DDC75FA7EB9CFCD6B7A86826D8E2 /* RivePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C7D81A197F604DD8F995B12FBBB797 /* RivePlugin.m */; };
+		171357A031EDAC317F5925823DED0F89 /* hb-ot-shape-complex-arabic.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5FFFF3E7EBF3B127748D1BF0B42BE7C4 /* hb-ot-shape-complex-arabic.cc */; };
+		17F80BB17DED2F74651446BEA9BD9652 /* hb-common.cc in Sources */ = {isa = PBXBuildFile; fileRef = D57FCD4A539981D4EF4008F394817BBB /* hb-common.cc */; };
+		181B37BA8E37207905BF97B71A44ED68 /* hb-subset-cff-common.cc in Sources */ = {isa = PBXBuildFile; fileRef = B00FE20D86A3AF0A8DC1F9C8B789CAE7 /* hb-subset-cff-common.cc */; };
+		1AFFCC30F832F7D9FEFEC8189D779F6F /* mat2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 056361F4649F714251CD2E22D8A79935 /* mat2d.cpp */; };
+		1D18975CB5FDAB841CCEE15C85C0406F /* hb-subset-input.cc in Sources */ = {isa = PBXBuildFile; fileRef = 64C4A02AED3A126FB9005C56860423D4 /* hb-subset-input.cc */; };
+		1D53364359D2948B3FEFDD91ECEF008A /* hb-ot-face.cc in Sources */ = {isa = PBXBuildFile; fileRef = 59E6C030661B1958411858FEE641DBF1 /* hb-ot-face.cc */; };
+		1E2D73EB99A43419F744209F4C2585D6 /* SwiftRivePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB808CC42A69EE35F5EA4BE33AF80C6 /* SwiftRivePlugin.swift */; };
+		258DEF4CC0FB482C23B9E8932C4A29EF /* hb-ucd.cc in Sources */ = {isa = PBXBuildFile; fileRef = 610E475D22E2310B353AD5AA782FA5D0 /* hb-ucd.cc */; };
+		26630150FFA7F4ACE9C841183C648E12 /* hb-ot-shape-complex-hangul.cc in Sources */ = {isa = PBXBuildFile; fileRef = 77F75E5298BCCC6BB1DD73B2EDD43AC9 /* hb-ot-shape-complex-hangul.cc */; };
+		2728DDAC3C3D979F9A439081A46ECAD1 /* hb-ot-var.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A86D67E9972BC2E3395022E756A69 /* hb-ot-var.cc */; };
+		27AD925D6A40A65D5D88E25377B56D4E /* SBAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 812A3BF773EBCE8982378D8F40B0BD77 /* SBAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC251AF0110032D6C0FD6F1872BADCA /* hb-ot-shape-complex-default.cc in Sources */ = {isa = PBXBuildFile; fileRef = F593F4E4DF9F3100878DF84B458A95C8 /* hb-ot-shape-complex-default.cc */; };
+		2C95E2819A5C94F8D97B2E2D0C8301C2 /* hb-number.cc in Sources */ = {isa = PBXBuildFile; fileRef = EAEBEECAC65493F59D9D833655AF0B79 /* hb-number.cc */; };
+		2D601D905007D2ADDB93404EC1D2538B /* SBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0AB2937B856F53A7C2E123EBE1ECD3 /* SBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D8418AA7E076DC1CBEC4BC0B19FD7DC /* rive_text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECA52F56E5B41E53A5CEA92D78693847 /* rive_text.cpp */; };
+		2F3FE69B23A8CECF98AEFBFB0217D8D9 /* SBScriptLocator.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7C46AA20C98C8282124D5FA004E3CE /* SBScriptLocator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3029DA7EE31DEFE049B82DEAF014D969 /* hb-ot-layout.cc in Sources */ = {isa = PBXBuildFile; fileRef = 76D1B979FF05C72F2C1AFD2CA604BCA7 /* hb-ot-layout.cc */; };
+		3B22C1DFC6A88A964F7A3382FBC3D747 /* hb-face.cc in Sources */ = {isa = PBXBuildFile; fileRef = 89E11E5DC2A0DC13B8924092675C33E2 /* hb-face.cc */; };
+		3EF47E14F631593A4BF1019E0F8292C0 /* hb-ot-shape-complex-vowel-constraints.cc in Sources */ = {isa = PBXBuildFile; fileRef = 76B7B02A426E3756647286CE2C29B6AE /* hb-ot-shape-complex-vowel-constraints.cc */; };
+		3F6706363B65561A82F2A516993F1E2C /* hb-subset-plan.cc in Sources */ = {isa = PBXBuildFile; fileRef = 21A502190EE0E74CDE7F4EE451CDF988 /* hb-subset-plan.cc */; };
+		3FB7410D452243E817D8CC958A2057C6 /* rive_counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22FD4D3B33C846682C28322DA911CFAD /* rive_counter.cpp */; };
+		423E8588367561F40A0FE7351ED8F750 /* hb-draw.cc in Sources */ = {isa = PBXBuildFile; fileRef = 84C074608FBBC28C707651686268E371 /* hb-draw.cc */; };
+		46B6BF5B9CC9E8727025D49C48CED7C0 /* line_breaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB4AF2CD22AF3881EF07A8980A9BC118 /* line_breaker.cpp */; };
+		498E1C3918A11727F1AFC535FD6B39EF /* hb-subset-cff2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 343EBD13B1F10EC3912B007A6C0632A2 /* hb-subset-cff2.cc */; };
+		4B12BA1D65D85383188EF97266E58038 /* SheenBidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 884755EAAD43BDAA5C519918C8829C8D /* SheenBidi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AFBFC6C738B37F9F815274605D93B59 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
+		5BC56DEAF7FB790B38E4C5D02F8CB353 /* hb-ot-shape-complex-thai.cc in Sources */ = {isa = PBXBuildFile; fileRef = C3EACBD560F8FED17138192DA5CC45A9 /* hb-ot-shape-complex-thai.cc */; };
+		627140C756E485A891867F6F3DBB65D5 /* hb-font.cc in Sources */ = {isa = PBXBuildFile; fileRef = 79F65F371848A9DC6B5E724FAF8B42BD /* hb-font.cc */; };
+		648C17821EF872A1A12FB65B7D5571D1 /* hb-ot-meta.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4A1FF20047F40E92A07D914E61A875D /* hb-ot-meta.cc */; };
+		6580954591BCD41AD18D075E2110DCA1 /* text_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D26730196AA0B72D93C7823B4412547F /* text_engine.cpp */; };
+		6BDAB00E4A04BB287709BB304B42EF5C /* hb-ot-shape-normalize.cc in Sources */ = {isa = PBXBuildFile; fileRef = 972A15727EEBEE6617B7FBBDDC74D1CE /* hb-ot-shape-normalize.cc */; };
+		6CAB099162A3B2678F6E617E1B72991B /* hb-blob.cc in Sources */ = {isa = PBXBuildFile; fileRef = 363C44DFA3491A43B5A862C6CA48C7A0 /* hb-blob.cc */; };
+		6E732222DA0205B353F7B11C86613310 /* hb-unicode.cc in Sources */ = {isa = PBXBuildFile; fileRef = C8DF2776AE08CB80B7691FEC9A3F1F7C /* hb-unicode.cc */; };
+		705AE88DBADE052128515BA2742BCADB /* hb-aat-layout.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C7C79CBEDA6FFB92F8C2E3488A885 /* hb-aat-layout.cc */; };
+		74CD1E2AA36E4A2CC4046ED54098D2AB /* hb-ot-shape-complex-use.cc in Sources */ = {isa = PBXBuildFile; fileRef = 67DF46ECA98445470BAD81EDEA809D40 /* hb-ot-shape-complex-use.cc */; };
+		75A32688345AF1011F91116FC1237E82 /* hb-buffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5155B681EDC00915946E8192FEFE638A /* hb-buffer.cc */; };
+		7A7BF3F489B4F4D102C454AA05360F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B42FD578B70F83B72C2402DC05B2A8B /* hb-ot-shape-complex-syllabic.cc in Sources */ = {isa = PBXBuildFile; fileRef = 56CE92A960C2DD20838A6644A7A7E186 /* hb-ot-shape-complex-syllabic.cc */; };
+		7F5997806668950C55A8416161254EDB /* SBCodepoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6128FB421B20347AADD00E42317361B3 /* SBCodepoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		803C0F6318281094BB27F31AA126F77E /* hb-set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9442557EE66243684C3555C0D176B722 /* hb-set.cc */; };
+		81F7FE65D880ACE758AE6542D88EDC0F /* SBConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1E4F02ADE53F192C3C646BE6494544 /* SBConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D59775ABA42E54B8DC863E0B0E1CBC /* hb-ot-shape-complex-indic-table.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9FF1FF2D52DBB22DFA346CB4608DB268 /* hb-ot-shape-complex-indic-table.cc */; };
+		881B6941F89386794777EB92172C348C /* hb-ot-map.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5A7991929F28E225B3B770E0B15B6E44 /* hb-ot-map.cc */; };
+		8BED1A76827A2053D9609E73E5F95CDB /* SBCodepointSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D67346471FF7C882F785DF4315F4E8F /* SBCodepointSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FBC0697E96F7F931C1E3EFC814CB0EB /* hb-subset-repacker.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6BC416A8807C5AEBA2117F7B44E0941F /* hb-subset-repacker.cc */; };
+		937541AAC10BF76793535E5E3B8A9BA6 /* hb-subset.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7506934309C44DF5375695ADDDFB244C /* hb-subset.cc */; };
+		99F256BD9FF90A7B7F002F87C8570B16 /* hb-aat-map.cc in Sources */ = {isa = PBXBuildFile; fileRef = EEECC1901832ACD65AE0F6B0126687D2 /* hb-aat-map.cc */; };
+		A044C51C04FE56192C6B218BB8B280CD /* raw_path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBC5F27263F4DB5D6F0B51AEECB72A36 /* raw_path.cpp */; };
+		A169E4985B14582F2CEDCEE23C2E0C47 /* font_hb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D697BD923F8AC7C36371FC9F6BA05DBF /* font_hb.cpp */; };
+		A3F486CAAE5DD5D1AC09985C04731BF1 /* SBMirrorLocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BB26A62F0465469DE23973BF1B8265 /* SBMirrorLocator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5D5902F1FEC2F7B5D778DD698097829 /* hb-buffer-verify.cc in Sources */ = {isa = PBXBuildFile; fileRef = B17235C6363491D6F862C733F76B2500 /* hb-buffer-verify.cc */; };
+		B7520F139418856FEAD5DE59DA5A2998 /* hb-ot-math.cc in Sources */ = {isa = PBXBuildFile; fileRef = E5BED1ADC505ED3A88B1F7C7084DAAA7 /* hb-ot-math.cc */; };
+		B90C74A00808E02C17C97F280263397C /* hb-subset-cff1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD39BF5D566A1DE71DF08F321E54DD /* hb-subset-cff1.cc */; };
+		BAF04DBA5E546AED0B6E18D0CDADB398 /* hb-static.cc in Sources */ = {isa = PBXBuildFile; fileRef = EF09F275A7D62A64CCC43685B0125F4E /* hb-static.cc */; };
+		BCE79E136F51E8C3C50C9B43AB9F7BEE /* hb-ot-tag.cc in Sources */ = {isa = PBXBuildFile; fileRef = 21C222E4B5FEA69FA44718912D7779BF /* hb-ot-tag.cc */; };
+		BD7987C37483121561F1CC2EA29B9958 /* hb-shape-plan.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8170D067335C5A4E35A578E718C46402 /* hb-shape-plan.cc */; };
+		BDF10ED6B4ABBDDD0233C34DBAC633C9 /* SBRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 860179855A9D07F7C0A3E5B234C59E65 /* SBRun.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB87AF681076486A24095A40F79E184 /* hb-ot-shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = 95D2B78E1586E0009772FE489C36FE10 /* hb-ot-shape.cc */; };
+		C3BD7173FEA1580B86BD2F15A2453F71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D317DABA9348B2686C727CD2E1125FC4 /* hb-ot-name.cc in Sources */ = {isa = PBXBuildFile; fileRef = B48739B72C7B35ED62F4FB10B74547B7 /* hb-ot-name.cc */; };
+		D58190FAC9F4D7EBF350593DB0958587 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2B33DE8AC7523A00BB41B0B0E1D644 /* hb-shaper.cc in Sources */ = {isa = PBXBuildFile; fileRef = 612A1CFF4C58DD63B651423E75F2CECC /* hb-shaper.cc */; };
+		DD1BFDB9FBA5A7FFECCE23A9CCC705E3 /* hb-ot-cff2-table.cc in Sources */ = {isa = PBXBuildFile; fileRef = 91AD2861641B42216BA058E969ED37E4 /* hb-ot-cff2-table.cc */; };
+		DD316DC3F245234FEFF295C1062580CD /* renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7D0AF2676C22B3B2149EE922E6FAC36 /* renderer.cpp */; };
+		DE640309B307DD04C13A871730A4E8C0 /* SBParagraph.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9BBBE6F481E74053025C25FCA9FA2 /* SBParagraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE9505FBF154BE4532FC18B86195631D /* hb-ot-metrics.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1796C6615839B20150510A84327633BC /* hb-ot-metrics.cc */; };
+		DEB0B5E31CCA41967830D94BC46B33AD /* hb-buffer-serialize.cc in Sources */ = {isa = PBXBuildFile; fileRef = D30F312B16AC04B80A6802819482D576 /* hb-buffer-serialize.cc */; };
+		DEBEF31FA2F4EE4F5D76210BC655C960 /* SBGeneralCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF2359E6EDDABF6E25C70F4E2F1341E /* SBGeneralCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E354C92F57D7CFC023B111A8D96CF7FA /* hb-shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7AD3610648EA15472DFEFC2166395 /* hb-shape.cc */; };
+		E7FD4070FE470D4171F40F29A3FEBDB2 /* SBBidiType.h in Headers */ = {isa = PBXBuildFile; fileRef = 287FE403BB7784F34EB5B5813064FC4B /* SBBidiType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8CBD2A48E068EFE55277D623AB3CAD4 /* RivePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 466FBBFC79B49339CE42BD0E2205AFDB /* RivePlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CAABCE30E7175B78289D194828339A /* hb-ot-shape-complex-indic.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E0129977C3335A8D9CB8EE3584690F1 /* hb-ot-shape-complex-indic.cc */; };
+		EACBD0467701805835ED707B1A304D25 /* SBLine.h in Headers */ = {isa = PBXBuildFile; fileRef = D857A02F51CDA0E8471ECE2AFF4A4B5E /* SBLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9EE2BFEBEF58E2DF01E598B37E161F /* SBBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A8894E342B820CD03EAFAEAACDE66235 /* SBBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F247CEF8D42F07764A56DAB664E3FB20 /* hb-ot-font.cc in Sources */ = {isa = PBXBuildFile; fileRef = A1D8A63512D01031A43AB12AB0069B4D /* hb-ot-font.cc */; };
+		FCF48F6AC7B082D8351DAB10678C5D65 /* hb-ot-shape-complex-hebrew.cc in Sources */ = {isa = PBXBuildFile; fileRef = AF883771982236B4A1623604DD1D3A12 /* hb-ot-shape-complex-hebrew.cc */; };
+		FE0576BB07F4A60E22FFF36016AE0F93 /* hb-map.cc in Sources */ = {isa = PBXBuildFile; fileRef = B132887B77AF78DAB3D0A031DC8A5805 /* hb-map.cc */; };
+		FF26E00C160B94311F4762893A32E42D /* hb-ot-shape-fallback.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626AE453CF9D656377AD9656DF0B7B4A /* hb-ot-shape-fallback.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8811E20A7C90B0F239B30D4CF89F343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C719E84F67F73FC0C74005C9B0C057;
+			remoteInfo = rive_common;
+		};
+		DCCAC4AB1C2053C02D65817AD6331261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		F3321E33BAACA51C7234E275464B18A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BB26A62F0465469DE23973BF1B8265 /* SBMirrorLocator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBMirrorLocator.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBMirrorLocator.h"; sourceTree = "<group>"; };
+		0365C79737CB714C27013C8A9BFFD8CD /* rive_common-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rive_common-prefix.pch"; sourceTree = "<group>"; };
+		056361F4649F714251CD2E22D8A79935 /* mat2d.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mat2d.cpp; path = "../../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive-cpp/src/math/mat2d.cpp"; sourceTree = "<group>"; };
+		0D67346471FF7C882F785DF4315F4E8F /* SBCodepointSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBCodepointSequence.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBCodepointSequence.h"; sourceTree = "<group>"; };
+		16305DED6287C091E552682C3B64373A /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		1796C6615839B20150510A84327633BC /* hb-ot-metrics.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-metrics.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-metrics.cc"; sourceTree = "<group>"; };
+		21A502190EE0E74CDE7F4EE451CDF988 /* hb-subset-plan.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-subset-plan.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-subset-plan.cc"; sourceTree = "<group>"; };
+		21C222E4B5FEA69FA44718912D7779BF /* hb-ot-tag.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-tag.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-tag.cc"; sourceTree = "<group>"; };
+		22FD4D3B33C846682C28322DA911CFAD /* rive_counter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = rive_counter.cpp; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive-cpp/src/rive_counter.cpp"; sourceTree = "<group>"; };
+		287FE403BB7784F34EB5B5813064FC4B /* SBBidiType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBBidiType.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBBidiType.h"; sourceTree = "<group>"; };
+		29514B63BEF999292D47216FDDC4807D /* hb-ot-shape-complex-myanmar.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-myanmar.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-myanmar.cc"; sourceTree = "<group>"; };
+		2EB7AD3610648EA15472DFEFC2166395 /* hb-shape.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-shape.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-shape.cc"; sourceTree = "<group>"; };
+		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		343EBD13B1F10EC3912B007A6C0632A2 /* hb-subset-cff2.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-subset-cff2.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-subset-cff2.cc"; sourceTree = "<group>"; };
+		363C44DFA3491A43B5A862C6CA48C7A0 /* hb-blob.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-blob.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-blob.cc"; sourceTree = "<group>"; };
+		4004140286F89F7EC7261657CCD26631 /* rive_common-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "rive_common-Info.plist"; sourceTree = "<group>"; };
+		466FBBFC79B49339CE42BD0E2205AFDB /* RivePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RivePlugin.h; path = "../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/Classes/RivePlugin.h"; sourceTree = "<group>"; };
+		476D66293D7305ED1596BEBD98598DAF /* rive_common-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rive_common-umbrella.h"; sourceTree = "<group>"; };
+		4E0129977C3335A8D9CB8EE3584690F1 /* hb-ot-shape-complex-indic.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-indic.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-indic.cc"; sourceTree = "<group>"; };
+		5002B85CC8E2BE5E231EDC288B94EC39 /* rive_common.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = rive_common.podspec; path = "../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive_common.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5155B681EDC00915946E8192FEFE638A /* hb-buffer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-buffer.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-buffer.cc"; sourceTree = "<group>"; };
+		51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
+		54913C57A7CA8F24D777171F4450181A /* rive_common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rive_common.release.xcconfig; sourceTree = "<group>"; };
+		56CE92A960C2DD20838A6644A7A7E186 /* hb-ot-shape-complex-syllabic.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-syllabic.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-syllabic.cc"; sourceTree = "<group>"; };
+		59E6C030661B1958411858FEE641DBF1 /* hb-ot-face.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-face.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-face.cc"; sourceTree = "<group>"; };
+		5A7991929F28E225B3B770E0B15B6E44 /* hb-ot-map.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-map.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-map.cc"; sourceTree = "<group>"; };
+		5B1A86D67E9972BC2E3395022E756A69 /* hb-ot-var.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-var.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-var.cc"; sourceTree = "<group>"; };
+		5FFFF3E7EBF3B127748D1BF0B42BE7C4 /* hb-ot-shape-complex-arabic.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-arabic.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-arabic.cc"; sourceTree = "<group>"; };
+		610E475D22E2310B353AD5AA782FA5D0 /* hb-ucd.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ucd.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ucd.cc"; sourceTree = "<group>"; };
+		610E98849EE96D07D0DFBF4042689BC9 /* hb-ot-color.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-color.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-color.cc"; sourceTree = "<group>"; };
+		6128FB421B20347AADD00E42317361B3 /* SBCodepoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBCodepoint.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBCodepoint.h"; sourceTree = "<group>"; };
+		612A1CFF4C58DD63B651423E75F2CECC /* hb-shaper.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-shaper.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-shaper.cc"; sourceTree = "<group>"; };
+		626AE453CF9D656377AD9656DF0B7B4A /* hb-ot-shape-fallback.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-fallback.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-fallback.cc"; sourceTree = "<group>"; };
+		632307E7E0AAF6D6422132C67C709937 /* SheenBidi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = SheenBidi.c; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Source/SheenBidi.c"; sourceTree = "<group>"; };
+		64C4A02AED3A126FB9005C56860423D4 /* hb-subset-input.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-subset-input.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-subset-input.cc"; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DF46ECA98445470BAD81EDEA809D40 /* hb-ot-shape-complex-use.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-use.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-use.cc"; sourceTree = "<group>"; };
+		68C25B59C6CF0F7489AA5EE24724158C /* rive_common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rive_common.debug.xcconfig; sourceTree = "<group>"; };
+		6BC416A8807C5AEBA2117F7B44E0941F /* hb-subset-repacker.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-subset-repacker.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-subset-repacker.cc"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73FDA6CD2C8FDF256836BE52E26E05F4 /* hb-ot-shape-complex-khmer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-khmer.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-khmer.cc"; sourceTree = "<group>"; };
+		7506934309C44DF5375695ADDDFB244C /* hb-subset.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-subset.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-subset.cc"; sourceTree = "<group>"; };
+		76B7B02A426E3756647286CE2C29B6AE /* hb-ot-shape-complex-vowel-constraints.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-vowel-constraints.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-vowel-constraints.cc"; sourceTree = "<group>"; };
+		76D1B979FF05C72F2C1AFD2CA604BCA7 /* hb-ot-layout.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-layout.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-layout.cc"; sourceTree = "<group>"; };
+		77F75E5298BCCC6BB1DD73B2EDD43AC9 /* hb-ot-shape-complex-hangul.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-hangul.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-hangul.cc"; sourceTree = "<group>"; };
+		79F65F371848A9DC6B5E724FAF8B42BD /* hb-font.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-font.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-font.cc"; sourceTree = "<group>"; };
+		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		7D1C7C79CBEDA6FFB92F8C2E3488A885 /* hb-aat-layout.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-aat-layout.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-aat-layout.cc"; sourceTree = "<group>"; };
+		7DDD39BF5D566A1DE71DF08F321E54DD /* hb-subset-cff1.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-subset-cff1.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-subset-cff1.cc"; sourceTree = "<group>"; };
+		812A3BF773EBCE8982378D8F40B0BD77 /* SBAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBAlgorithm.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBAlgorithm.h"; sourceTree = "<group>"; };
+		8170D067335C5A4E35A578E718C46402 /* hb-shape-plan.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-shape-plan.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-shape-plan.cc"; sourceTree = "<group>"; };
+		81C7D81A197F604DD8F995B12FBBB797 /* RivePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RivePlugin.m; path = "../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/Classes/RivePlugin.m"; sourceTree = "<group>"; };
+		82B680A497DDFFEB567279CE74ABC2B7 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84C074608FBBC28C707651686268E371 /* hb-draw.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-draw.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-draw.cc"; sourceTree = "<group>"; };
+		860179855A9D07F7C0A3E5B234C59E65 /* SBRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBRun.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBRun.h"; sourceTree = "<group>"; };
+		86F178E2F0498D34329C0807051A90E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/LICENSE"; sourceTree = "<group>"; };
+		884755EAAD43BDAA5C519918C8829C8D /* SheenBidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SheenBidi.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SheenBidi.h"; sourceTree = "<group>"; };
+		89E11E5DC2A0DC13B8924092675C33E2 /* hb-face.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-face.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-face.cc"; sourceTree = "<group>"; };
+		91AD2861641B42216BA058E969ED37E4 /* hb-ot-cff2-table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-cff2-table.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-cff2-table.cc"; sourceTree = "<group>"; };
+		9442557EE66243684C3555C0D176B722 /* hb-set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-set.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-set.cc"; sourceTree = "<group>"; };
+		95D2B78E1586E0009772FE489C36FE10 /* hb-ot-shape.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape.cc"; sourceTree = "<group>"; };
+		963F6CFAB9D76E43A98AF34FC88FD26B /* rive_common.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = rive_common.modulemap; sourceTree = "<group>"; };
+		96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		972A15727EEBEE6617B7FBBDDC74D1CE /* hb-ot-shape-normalize.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-normalize.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-normalize.cc"; sourceTree = "<group>"; };
+		99E1419F091AE65D86639908673C2327 /* rive_common-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "rive_common-dummy.m"; sourceTree = "<group>"; };
+		9B1E4F02ADE53F192C3C646BE6494544 /* SBConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBConfig.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBConfig.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		9FF1FF2D52DBB22DFA346CB4608DB268 /* hb-ot-shape-complex-indic-table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-indic-table.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-indic-table.cc"; sourceTree = "<group>"; };
+		A1D8A63512D01031A43AB12AB0069B4D /* hb-ot-font.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-font.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-font.cc"; sourceTree = "<group>"; };
+		A7D0AF2676C22B3B2149EE922E6FAC36 /* renderer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = renderer.cpp; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive-cpp/src/renderer.cpp"; sourceTree = "<group>"; };
+		A8894E342B820CD03EAFAEAACDE66235 /* SBBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBBase.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBBase.h"; sourceTree = "<group>"; };
+		ADF2359E6EDDABF6E25C70F4E2F1341E /* SBGeneralCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBGeneralCategory.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBGeneralCategory.h"; sourceTree = "<group>"; };
+		AF0AB2937B856F53A7C2E123EBE1ECD3 /* SBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBScript.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBScript.h"; sourceTree = "<group>"; };
+		AF883771982236B4A1623604DD1D3A12 /* hb-ot-shape-complex-hebrew.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-hebrew.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-hebrew.cc"; sourceTree = "<group>"; };
+		B00FE20D86A3AF0A8DC1F9C8B789CAE7 /* hb-subset-cff-common.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-subset-cff-common.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-subset-cff-common.cc"; sourceTree = "<group>"; };
+		B132887B77AF78DAB3D0A031DC8A5805 /* hb-map.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-map.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-map.cc"; sourceTree = "<group>"; };
+		B17235C6363491D6F862C733F76B2500 /* hb-buffer-verify.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-buffer-verify.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-buffer-verify.cc"; sourceTree = "<group>"; };
+		B48739B72C7B35ED62F4FB10B74547B7 /* hb-ot-name.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-name.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-name.cc"; sourceTree = "<group>"; };
+		C3EACBD560F8FED17138192DA5CC45A9 /* hb-ot-shape-complex-thai.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-thai.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-thai.cc"; sourceTree = "<group>"; };
+		C4A1FF20047F40E92A07D914E61A875D /* hb-ot-meta.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-meta.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-meta.cc"; sourceTree = "<group>"; };
+		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8DF2776AE08CB80B7691FEC9A3F1F7C /* hb-unicode.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-unicode.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-unicode.cc"; sourceTree = "<group>"; };
+		CB4AF2CD22AF3881EF07A8980A9BC118 /* line_breaker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = line_breaker.cpp; path = "../../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive-cpp/src/text/line_breaker.cpp"; sourceTree = "<group>"; };
+		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD9BBBE6F481E74053025C25FCA9FA2 /* SBParagraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBParagraph.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBParagraph.h"; sourceTree = "<group>"; };
+		D26730196AA0B72D93C7823B4412547F /* text_engine.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = text_engine.cpp; path = "../../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive-cpp/src/text/text_engine.cpp"; sourceTree = "<group>"; };
+		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		D30F312B16AC04B80A6802819482D576 /* hb-buffer-serialize.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-buffer-serialize.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-buffer-serialize.cc"; sourceTree = "<group>"; };
+		D57FCD4A539981D4EF4008F394817BBB /* hb-common.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-common.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-common.cc"; sourceTree = "<group>"; };
+		D697BD923F8AC7C36371FC9F6BA05DBF /* font_hb.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = font_hb.cpp; path = "../../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive-cpp/src/text/font_hb.cpp"; sourceTree = "<group>"; };
+		D857A02F51CDA0E8471ECE2AFF4A4B5E /* SBLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLine.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBLine.h"; sourceTree = "<group>"; };
+		D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA44239E05B4D682BA9075A277ADB41E /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		DE8135CAE607F7824D08D08BDA5968B9 /* rive_common */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = rive_common; path = rive_common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BED1ADC505ED3A88B1F7C7084DAAA7 /* hb-ot-math.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-math.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-math.cc"; sourceTree = "<group>"; };
+		EAEBEECAC65493F59D9D833655AF0B79 /* hb-number.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-number.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-number.cc"; sourceTree = "<group>"; };
+		EB7C46AA20C98C8282124D5FA004E3CE /* SBScriptLocator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBScriptLocator.h; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/SheenBidi/Headers/SBScriptLocator.h"; sourceTree = "<group>"; };
+		ECA52F56E5B41E53A5CEA92D78693847 /* rive_text.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = rive_text.cpp; path = "../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive_text/rive_text.cpp"; sourceTree = "<group>"; };
+		EDB808CC42A69EE35F5EA4BE33AF80C6 /* SwiftRivePlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftRivePlugin.swift; path = "../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/Classes/SwiftRivePlugin.swift"; sourceTree = "<group>"; };
+		EEECC1901832ACD65AE0F6B0126687D2 /* hb-aat-map.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-aat-map.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-aat-map.cc"; sourceTree = "<group>"; };
+		EF09F275A7D62A64CCC43685B0125F4E /* hb-static.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-static.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-static.cc"; sourceTree = "<group>"; };
+		F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		F593F4E4DF9F3100878DF84B458A95C8 /* hb-ot-shape-complex-default.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-shape-complex-default.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-shape-complex-default.cc"; sourceTree = "<group>"; };
+		FBC5F27263F4DB5D6F0B51AEECB72A36 /* raw_path.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = raw_path.cpp; path = "../../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/rive-cpp/src/math/raw_path.cpp"; sourceTree = "<group>"; };
+		FC99F5D09E1F278D79DEB5B9636AEF83 /* hb-ot-cff1-table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "hb-ot-cff1-table.cc"; path = "../../../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3/ios/harfbuzz/src/hb-ot-cff1-table.cc"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05069E6E48F1212E1644ADE6687FE9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BD7173FEA1580B86BD2F15A2453F71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB3AEF99A57BCF71C25A73B36CA8E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7BF3F489B4F4D102C454AA05360F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC67CE1174D5DA48FCAAF2E4C61D314 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C5AC8564CB80E43A3C16BC670B616D11 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0DCA448E8107862BE050FA4F7228E426 /* SheenBidi */ = {
+			isa = PBXGroup;
+			children = (
+				304333B8EB70F919142BBE055492C9E3 /* Headers */,
+				70A2668C7AB09D7C45F38AF6818054A9 /* Source */,
+			);
+			name = SheenBidi;
+			path = SheenBidi;
+			sourceTree = "<group>";
+		};
+		0E561E7FB5E79593922B3580E5936730 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				056361F4649F714251CD2E22D8A79935 /* mat2d.cpp */,
+				FBC5F27263F4DB5D6F0B51AEECB72A36 /* raw_path.cpp */,
+			);
+			name = math;
+			path = math;
+			sourceTree = "<group>";
+		};
+		0FEDAF8DA6D6B050E57F44C7D1E1FDEB /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				282F481A485944B456D7FBA129498E6D /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../usr/local/Caskroom/flutter/3.3.3/flutter/.pub-cache/hosted/pub.dartlang.org/rive_common-0.0.3";
+			sourceTree = "<group>";
+		};
+		1A8B5ED90260F4FC6F63E4F7E2C1D3E4 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				EB157F22D6C71DE0BE7D1AD9AF785043 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		1C8CF2D850F1A220C982640FEDE498AE /* rive_common */ = {
+			isa = PBXGroup;
+			children = (
+				CED8723143E98934C0C81A1806471688 /* ios */,
+			);
+			name = rive_common;
+			path = rive_common;
+			sourceTree = "<group>";
+		};
+		1F97E1F168FDBD55D40848DE769A538C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				86F178E2F0498D34329C0807051A90E1 /* LICENSE */,
+				5002B85CC8E2BE5E231EDC288B94EC39 /* rive_common.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1FEBA1B06EC5A034A2B796A2B927C763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */,
+				DE8135CAE607F7824D08D08BDA5968B9 /* rive_common */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282F481A485944B456D7FBA129498E6D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				6CB0A932D8D44F975B19374DB2B6EAEA /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2D07047A1388DF6D020B6A5EF08AE77F /* rive_text */ = {
+			isa = PBXGroup;
+			children = (
+				ECA52F56E5B41E53A5CEA92D78693847 /* rive_text.cpp */,
+			);
+			name = rive_text;
+			path = rive_text;
+			sourceTree = "<group>";
+		};
+		304333B8EB70F919142BBE055492C9E3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				812A3BF773EBCE8982378D8F40B0BD77 /* SBAlgorithm.h */,
+				A8894E342B820CD03EAFAEAACDE66235 /* SBBase.h */,
+				287FE403BB7784F34EB5B5813064FC4B /* SBBidiType.h */,
+				6128FB421B20347AADD00E42317361B3 /* SBCodepoint.h */,
+				0D67346471FF7C882F785DF4315F4E8F /* SBCodepointSequence.h */,
+				9B1E4F02ADE53F192C3C646BE6494544 /* SBConfig.h */,
+				ADF2359E6EDDABF6E25C70F4E2F1341E /* SBGeneralCategory.h */,
+				D857A02F51CDA0E8471ECE2AFF4A4B5E /* SBLine.h */,
+				00BB26A62F0465469DE23973BF1B8265 /* SBMirrorLocator.h */,
+				CDD9BBBE6F481E74053025C25FCA9FA2 /* SBParagraph.h */,
+				860179855A9D07F7C0A3E5B234C59E65 /* SBRun.h */,
+				AF0AB2937B856F53A7C2E123EBE1ECD3 /* SBScript.h */,
+				EB7C46AA20C98C8282124D5FA004E3CE /* SBScriptLocator.h */,
+				884755EAAD43BDAA5C519918C8829C8D /* SheenBidi.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		35F6B21A0193726FF16E25758C400837 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82B680A497DDFFEB567279CE74ABC2B7 /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		50531564FBEC081E67C5DA0AA8DB064B /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				35F6B21A0193726FF16E25758C400837 /* Pod */,
+				A5B603411B1F0D10415EB67DE047C5B3 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62865C65485889D32AA439825065651C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A7D0AF2676C22B3B2149EE922E6FAC36 /* renderer.cpp */,
+				22FD4D3B33C846682C28322DA911CFAD /* rive_counter.cpp */,
+				0E561E7FB5E79593922B3580E5936730 /* math */,
+				F3194508CEEA26669C9FF725F0A9796F /* text */,
+			);
+			name = src;
+			path = src;
+			sourceTree = "<group>";
+		};
+		6CB0A932D8D44F975B19374DB2B6EAEA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				CB4555772AD13AB619694F87BA6A715E /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6EDC884A424DB907E15F1BCA52735AF1 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				CFE6CFDA2EEF3D7FBD2E3C159FDC31C1 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		70A2668C7AB09D7C45F38AF6818054A9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				632307E7E0AAF6D6422132C67C709937 /* SheenBidi.c */,
+			);
+			name = Source;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */,
+				C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */,
+				D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */,
+				7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */,
+				317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */,
+				51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */,
+				96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */,
+				CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */,
+				9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */,
+				D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		81CB96747663689B134E1F4E362BB8B5 /* rakeshgowda */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB97B770FF58DB79C6D5E4637D3AE7 /* AndroidStudioProjects */,
+			);
+			name = rakeshgowda;
+			path = rakeshgowda;
+			sourceTree = "<group>";
+		};
+		9075044C038702FAAB25B7E417472627 /* harfbuzz */ = {
+			isa = PBXGroup;
+			children = (
+				D53BFC2DD42BDB5778D587D33FDABAB2 /* src */,
+			);
+			name = harfbuzz;
+			path = harfbuzz;
+			sourceTree = "<group>";
+		};
+		93F7D5FCE21C0FC397438A6C228129FE /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				94663993B9A5C7698AA9AC481C2BF833 /* Users */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		94663993B9A5C7698AA9AC481C2BF833 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				81CB96747663689B134E1F4E362BB8B5 /* rakeshgowda */,
+			);
+			name = Users;
+			path = Users;
+			sourceTree = "<group>";
+		};
+		A5B603411B1F0D10415EB67DE047C5B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA44239E05B4D682BA9075A277ADB41E /* Flutter.debug.xcconfig */,
+				16305DED6287C091E552682C3B64373A /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		AE8470B785B17A9276CCCE0D9D770FD1 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F63A6001E1D0B4527CCFFE65F04BE455 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B46746BA9DB1C86F4B2780A937377060 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50531564FBEC081E67C5DA0AA8DB064B /* Flutter */,
+				DB6871090E8F4BFB91D06B26FB0F1D56 /* rive_common */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C1DB97B770FF58DB79C6D5E4637D3AE7 /* AndroidStudioProjects */ = {
+			isa = PBXGroup;
+			children = (
+				F4BCC9A5B50DD985AF2CC315A482BA05 /* background_anim */,
+			);
+			name = AndroidStudioProjects;
+			path = AndroidStudioProjects;
+			sourceTree = "<group>";
+		};
+		C5AC8564CB80E43A3C16BC670B616D11 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				93F7D5FCE21C0FC397438A6C228129FE /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB4555772AD13AB619694F87BA6A715E /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				AE8470B785B17A9276CCCE0D9D770FD1 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CED8723143E98934C0C81A1806471688 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E0594988B336483CB976D6B82A7ED6D7 /* Classes */,
+				9075044C038702FAAB25B7E417472627 /* harfbuzz */,
+				D167BAE6B3D30CF3D59AF4D54F446E82 /* rive-cpp */,
+				2D07047A1388DF6D020B6A5EF08AE77F /* rive_text */,
+				0DCA448E8107862BE050FA4F7228E426 /* SheenBidi */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B46746BA9DB1C86F4B2780A937377060 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1FEBA1B06EC5A034A2B796A2B927C763 /* Products */,
+				791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE6CFDA2EEF3D7FBD2E3C159FDC31C1 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				0DC67CE1174D5DA48FCAAF2E4C61D314 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D167BAE6B3D30CF3D59AF4D54F446E82 /* rive-cpp */ = {
+			isa = PBXGroup;
+			children = (
+				62865C65485889D32AA439825065651C /* src */,
+			);
+			name = "rive-cpp";
+			path = "rive-cpp";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53BFC2DD42BDB5778D587D33FDABAB2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7D1C7C79CBEDA6FFB92F8C2E3488A885 /* hb-aat-layout.cc */,
+				EEECC1901832ACD65AE0F6B0126687D2 /* hb-aat-map.cc */,
+				363C44DFA3491A43B5A862C6CA48C7A0 /* hb-blob.cc */,
+				5155B681EDC00915946E8192FEFE638A /* hb-buffer.cc */,
+				D30F312B16AC04B80A6802819482D576 /* hb-buffer-serialize.cc */,
+				B17235C6363491D6F862C733F76B2500 /* hb-buffer-verify.cc */,
+				D57FCD4A539981D4EF4008F394817BBB /* hb-common.cc */,
+				84C074608FBBC28C707651686268E371 /* hb-draw.cc */,
+				89E11E5DC2A0DC13B8924092675C33E2 /* hb-face.cc */,
+				79F65F371848A9DC6B5E724FAF8B42BD /* hb-font.cc */,
+				B132887B77AF78DAB3D0A031DC8A5805 /* hb-map.cc */,
+				EAEBEECAC65493F59D9D833655AF0B79 /* hb-number.cc */,
+				FC99F5D09E1F278D79DEB5B9636AEF83 /* hb-ot-cff1-table.cc */,
+				91AD2861641B42216BA058E969ED37E4 /* hb-ot-cff2-table.cc */,
+				610E98849EE96D07D0DFBF4042689BC9 /* hb-ot-color.cc */,
+				59E6C030661B1958411858FEE641DBF1 /* hb-ot-face.cc */,
+				A1D8A63512D01031A43AB12AB0069B4D /* hb-ot-font.cc */,
+				76D1B979FF05C72F2C1AFD2CA604BCA7 /* hb-ot-layout.cc */,
+				5A7991929F28E225B3B770E0B15B6E44 /* hb-ot-map.cc */,
+				E5BED1ADC505ED3A88B1F7C7084DAAA7 /* hb-ot-math.cc */,
+				C4A1FF20047F40E92A07D914E61A875D /* hb-ot-meta.cc */,
+				1796C6615839B20150510A84327633BC /* hb-ot-metrics.cc */,
+				B48739B72C7B35ED62F4FB10B74547B7 /* hb-ot-name.cc */,
+				95D2B78E1586E0009772FE489C36FE10 /* hb-ot-shape.cc */,
+				5FFFF3E7EBF3B127748D1BF0B42BE7C4 /* hb-ot-shape-complex-arabic.cc */,
+				F593F4E4DF9F3100878DF84B458A95C8 /* hb-ot-shape-complex-default.cc */,
+				77F75E5298BCCC6BB1DD73B2EDD43AC9 /* hb-ot-shape-complex-hangul.cc */,
+				AF883771982236B4A1623604DD1D3A12 /* hb-ot-shape-complex-hebrew.cc */,
+				4E0129977C3335A8D9CB8EE3584690F1 /* hb-ot-shape-complex-indic.cc */,
+				9FF1FF2D52DBB22DFA346CB4608DB268 /* hb-ot-shape-complex-indic-table.cc */,
+				73FDA6CD2C8FDF256836BE52E26E05F4 /* hb-ot-shape-complex-khmer.cc */,
+				29514B63BEF999292D47216FDDC4807D /* hb-ot-shape-complex-myanmar.cc */,
+				56CE92A960C2DD20838A6644A7A7E186 /* hb-ot-shape-complex-syllabic.cc */,
+				C3EACBD560F8FED17138192DA5CC45A9 /* hb-ot-shape-complex-thai.cc */,
+				67DF46ECA98445470BAD81EDEA809D40 /* hb-ot-shape-complex-use.cc */,
+				76B7B02A426E3756647286CE2C29B6AE /* hb-ot-shape-complex-vowel-constraints.cc */,
+				626AE453CF9D656377AD9656DF0B7B4A /* hb-ot-shape-fallback.cc */,
+				972A15727EEBEE6617B7FBBDDC74D1CE /* hb-ot-shape-normalize.cc */,
+				21C222E4B5FEA69FA44718912D7779BF /* hb-ot-tag.cc */,
+				5B1A86D67E9972BC2E3395022E756A69 /* hb-ot-var.cc */,
+				9442557EE66243684C3555C0D176B722 /* hb-set.cc */,
+				2EB7AD3610648EA15472DFEFC2166395 /* hb-shape.cc */,
+				8170D067335C5A4E35A578E718C46402 /* hb-shape-plan.cc */,
+				612A1CFF4C58DD63B651423E75F2CECC /* hb-shaper.cc */,
+				EF09F275A7D62A64CCC43685B0125F4E /* hb-static.cc */,
+				7506934309C44DF5375695ADDDFB244C /* hb-subset.cc */,
+				B00FE20D86A3AF0A8DC1F9C8B789CAE7 /* hb-subset-cff-common.cc */,
+				7DDD39BF5D566A1DE71DF08F321E54DD /* hb-subset-cff1.cc */,
+				343EBD13B1F10EC3912B007A6C0632A2 /* hb-subset-cff2.cc */,
+				64C4A02AED3A126FB9005C56860423D4 /* hb-subset-input.cc */,
+				21A502190EE0E74CDE7F4EE451CDF988 /* hb-subset-plan.cc */,
+				6BC416A8807C5AEBA2117F7B44E0941F /* hb-subset-repacker.cc */,
+				610E475D22E2310B353AD5AA782FA5D0 /* hb-ucd.cc */,
+				C8DF2776AE08CB80B7691FEC9A3F1F7C /* hb-unicode.cc */,
+			);
+			name = src;
+			path = src;
+			sourceTree = "<group>";
+		};
+		D78E7F85F6D41D7637FD275AFE84FA01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				963F6CFAB9D76E43A98AF34FC88FD26B /* rive_common.modulemap */,
+				99E1419F091AE65D86639908673C2327 /* rive_common-dummy.m */,
+				4004140286F89F7EC7261657CCD26631 /* rive_common-Info.plist */,
+				0365C79737CB714C27013C8A9BFFD8CD /* rive_common-prefix.pch */,
+				476D66293D7305ED1596BEBD98598DAF /* rive_common-umbrella.h */,
+				68C25B59C6CF0F7489AA5EE24724158C /* rive_common.debug.xcconfig */,
+				54913C57A7CA8F24D777171F4450181A /* rive_common.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/rive_common";
+			sourceTree = "<group>";
+		};
+		D9653F52121A9BA62BC9B4CC87FB2A0F /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				1C8CF2D850F1A220C982640FEDE498AE /* rive_common */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		DB6871090E8F4BFB91D06B26FB0F1D56 /* rive_common */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDAF8DA6D6B050E57F44C7D1E1FDEB /* .. */,
+				1F97E1F168FDBD55D40848DE769A538C /* Pod */,
+				D78E7F85F6D41D7637FD275AFE84FA01 /* Support Files */,
+			);
+			name = rive_common;
+			path = ../.symlinks/plugins/rive_common/ios;
+			sourceTree = "<group>";
+		};
+		E0594988B336483CB976D6B82A7ED6D7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				466FBBFC79B49339CE42BD0E2205AFDB /* RivePlugin.h */,
+				81C7D81A197F604DD8F995B12FBBB797 /* RivePlugin.m */,
+				EDB808CC42A69EE35F5EA4BE33AF80C6 /* SwiftRivePlugin.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EB157F22D6C71DE0BE7D1AD9AF785043 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				D9653F52121A9BA62BC9B4CC87FB2A0F /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		F3194508CEEA26669C9FF725F0A9796F /* text */ = {
+			isa = PBXGroup;
+			children = (
+				D697BD923F8AC7C36371FC9F6BA05DBF /* font_hb.cpp */,
+				CB4AF2CD22AF3881EF07A8980A9BC118 /* line_breaker.cpp */,
+				D26730196AA0B72D93C7823B4412547F /* text_engine.cpp */,
+			);
+			name = text;
+			path = text;
+			sourceTree = "<group>";
+		};
+		F4BCC9A5B50DD985AF2CC315A482BA05 /* background_anim */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B5ED90260F4FC6F63E4F7E2C1D3E4 /* ios */,
+			);
+			name = background_anim;
+			path = background_anim;
+			sourceTree = "<group>";
+		};
+		F63A6001E1D0B4527CCFFE65F04BE455 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				6EDC884A424DB907E15F1BCA52735AF1 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EE2F3783C0291766308A87E8D07D157 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58190FAC9F4D7EBF350593DB0958587 /* Pods-Runner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD27722918019B0B69D870C241DDE1D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031102A34D0786DC73AB631444AA8808 /* rive_common-umbrella.h in Headers */,
+				E8CBD2A48E068EFE55277D623AB3CAD4 /* RivePlugin.h in Headers */,
+				27AD925D6A40A65D5D88E25377B56D4E /* SBAlgorithm.h in Headers */,
+				EB9EE2BFEBEF58E2DF01E598B37E161F /* SBBase.h in Headers */,
+				E7FD4070FE470D4171F40F29A3FEBDB2 /* SBBidiType.h in Headers */,
+				7F5997806668950C55A8416161254EDB /* SBCodepoint.h in Headers */,
+				8BED1A76827A2053D9609E73E5F95CDB /* SBCodepointSequence.h in Headers */,
+				81F7FE65D880ACE758AE6542D88EDC0F /* SBConfig.h in Headers */,
+				DEBEF31FA2F4EE4F5D76210BC655C960 /* SBGeneralCategory.h in Headers */,
+				EACBD0467701805835ED707B1A304D25 /* SBLine.h in Headers */,
+				A3F486CAAE5DD5D1AC09985C04731BF1 /* SBMirrorLocator.h in Headers */,
+				DE640309B307DD04C13A871730A4E8C0 /* SBParagraph.h in Headers */,
+				BDF10ED6B4ABBDDD0233C34DBAC633C9 /* SBRun.h in Headers */,
+				2D601D905007D2ADDB93404EC1D2538B /* SBScript.h in Headers */,
+				2F3FE69B23A8CECF98AEFBFB0217D8D9 /* SBScriptLocator.h in Headers */,
+				4B12BA1D65D85383188EF97266E58038 /* SheenBidi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78507EA3AAD16F3F78DD89B55A4E5516 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				6EE2F3783C0291766308A87E8D07D157 /* Headers */,
+				0E04854D99B064B8DD25D1D21F403488 /* Sources */,
+				05069E6E48F1212E1644ADE6687FE9C2 /* Frameworks */,
+				7E16A3B29257F8C2C3BE477192882B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1028D0F96E1AF240E15058EBB5943B00 /* PBXTargetDependency */,
+				7A4A381B33D428591009E5FBEE97E235 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = Pods_Runner;
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9C719E84F67F73FC0C74005C9B0C057 /* rive_common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC68EA69D643CDCB5BE259E27030CB3 /* Build configuration list for PBXNativeTarget "rive_common" */;
+			buildPhases = (
+				BD27722918019B0B69D870C241DDE1D3 /* Headers */,
+				DBF2EEC0900BEA521B05B4168767EE46 /* Sources */,
+				5BB3AEF99A57BCF71C25A73B36CA8E13 /* Frameworks */,
+				FE56BCC93023AFEE443F556E93BBF0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4700DB4D2F47EE522654A0349BC45A /* PBXTargetDependency */,
+			);
+			name = rive_common;
+			productName = rive_common;
+			productReference = DE8135CAE607F7824D08D08BDA5968B9 /* rive_common */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FEBA1B06EC5A034A2B796A2B927C763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+				E9C719E84F67F73FC0C74005C9B0C057 /* rive_common */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E16A3B29257F8C2C3BE477192882B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE56BCC93023AFEE443F556E93BBF0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E04854D99B064B8DD25D1D21F403488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFBFC6C738B37F9F815274605D93B59 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF2EEC0900BEA521B05B4168767EE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A169E4985B14582F2CEDCEE23C2E0C47 /* font_hb.cpp in Sources */,
+				705AE88DBADE052128515BA2742BCADB /* hb-aat-layout.cc in Sources */,
+				99F256BD9FF90A7B7F002F87C8570B16 /* hb-aat-map.cc in Sources */,
+				6CAB099162A3B2678F6E617E1B72991B /* hb-blob.cc in Sources */,
+				75A32688345AF1011F91116FC1237E82 /* hb-buffer.cc in Sources */,
+				DEB0B5E31CCA41967830D94BC46B33AD /* hb-buffer-serialize.cc in Sources */,
+				B5D5902F1FEC2F7B5D778DD698097829 /* hb-buffer-verify.cc in Sources */,
+				17F80BB17DED2F74651446BEA9BD9652 /* hb-common.cc in Sources */,
+				423E8588367561F40A0FE7351ED8F750 /* hb-draw.cc in Sources */,
+				3B22C1DFC6A88A964F7A3382FBC3D747 /* hb-face.cc in Sources */,
+				627140C756E485A891867F6F3DBB65D5 /* hb-font.cc in Sources */,
+				FE0576BB07F4A60E22FFF36016AE0F93 /* hb-map.cc in Sources */,
+				2C95E2819A5C94F8D97B2E2D0C8301C2 /* hb-number.cc in Sources */,
+				0CB5898AFB5EAE2BA0DD76D634D17F5D /* hb-ot-cff1-table.cc in Sources */,
+				DD1BFDB9FBA5A7FFECCE23A9CCC705E3 /* hb-ot-cff2-table.cc in Sources */,
+				08B28875107CA17B93919E73FC366130 /* hb-ot-color.cc in Sources */,
+				1D53364359D2948B3FEFDD91ECEF008A /* hb-ot-face.cc in Sources */,
+				F247CEF8D42F07764A56DAB664E3FB20 /* hb-ot-font.cc in Sources */,
+				3029DA7EE31DEFE049B82DEAF014D969 /* hb-ot-layout.cc in Sources */,
+				881B6941F89386794777EB92172C348C /* hb-ot-map.cc in Sources */,
+				B7520F139418856FEAD5DE59DA5A2998 /* hb-ot-math.cc in Sources */,
+				648C17821EF872A1A12FB65B7D5571D1 /* hb-ot-meta.cc in Sources */,
+				DE9505FBF154BE4532FC18B86195631D /* hb-ot-metrics.cc in Sources */,
+				D317DABA9348B2686C727CD2E1125FC4 /* hb-ot-name.cc in Sources */,
+				BEB87AF681076486A24095A40F79E184 /* hb-ot-shape.cc in Sources */,
+				171357A031EDAC317F5925823DED0F89 /* hb-ot-shape-complex-arabic.cc in Sources */,
+				2AC251AF0110032D6C0FD6F1872BADCA /* hb-ot-shape-complex-default.cc in Sources */,
+				26630150FFA7F4ACE9C841183C648E12 /* hb-ot-shape-complex-hangul.cc in Sources */,
+				FCF48F6AC7B082D8351DAB10678C5D65 /* hb-ot-shape-complex-hebrew.cc in Sources */,
+				E9CAABCE30E7175B78289D194828339A /* hb-ot-shape-complex-indic.cc in Sources */,
+				84D59775ABA42E54B8DC863E0B0E1CBC /* hb-ot-shape-complex-indic-table.cc in Sources */,
+				084E05226133A3AC8D133800F59F6ED0 /* hb-ot-shape-complex-khmer.cc in Sources */,
+				103E72EAEEEEF0493D021E86FBBA65B8 /* hb-ot-shape-complex-myanmar.cc in Sources */,
+				7B42FD578B70F83B72C2402DC05B2A8B /* hb-ot-shape-complex-syllabic.cc in Sources */,
+				5BC56DEAF7FB790B38E4C5D02F8CB353 /* hb-ot-shape-complex-thai.cc in Sources */,
+				74CD1E2AA36E4A2CC4046ED54098D2AB /* hb-ot-shape-complex-use.cc in Sources */,
+				3EF47E14F631593A4BF1019E0F8292C0 /* hb-ot-shape-complex-vowel-constraints.cc in Sources */,
+				FF26E00C160B94311F4762893A32E42D /* hb-ot-shape-fallback.cc in Sources */,
+				6BDAB00E4A04BB287709BB304B42EF5C /* hb-ot-shape-normalize.cc in Sources */,
+				BCE79E136F51E8C3C50C9B43AB9F7BEE /* hb-ot-tag.cc in Sources */,
+				2728DDAC3C3D979F9A439081A46ECAD1 /* hb-ot-var.cc in Sources */,
+				803C0F6318281094BB27F31AA126F77E /* hb-set.cc in Sources */,
+				E354C92F57D7CFC023B111A8D96CF7FA /* hb-shape.cc in Sources */,
+				BD7987C37483121561F1CC2EA29B9958 /* hb-shape-plan.cc in Sources */,
+				DB2B33DE8AC7523A00BB41B0B0E1D644 /* hb-shaper.cc in Sources */,
+				BAF04DBA5E546AED0B6E18D0CDADB398 /* hb-static.cc in Sources */,
+				937541AAC10BF76793535E5E3B8A9BA6 /* hb-subset.cc in Sources */,
+				181B37BA8E37207905BF97B71A44ED68 /* hb-subset-cff-common.cc in Sources */,
+				B90C74A00808E02C17C97F280263397C /* hb-subset-cff1.cc in Sources */,
+				498E1C3918A11727F1AFC535FD6B39EF /* hb-subset-cff2.cc in Sources */,
+				1D18975CB5FDAB841CCEE15C85C0406F /* hb-subset-input.cc in Sources */,
+				3F6706363B65561A82F2A516993F1E2C /* hb-subset-plan.cc in Sources */,
+				8FBC0697E96F7F931C1E3EFC814CB0EB /* hb-subset-repacker.cc in Sources */,
+				258DEF4CC0FB482C23B9E8932C4A29EF /* hb-ucd.cc in Sources */,
+				6E732222DA0205B353F7B11C86613310 /* hb-unicode.cc in Sources */,
+				46B6BF5B9CC9E8727025D49C48CED7C0 /* line_breaker.cpp in Sources */,
+				1AFFCC30F832F7D9FEFEC8189D779F6F /* mat2d.cpp in Sources */,
+				A044C51C04FE56192C6B218BB8B280CD /* raw_path.cpp in Sources */,
+				DD316DC3F245234FEFF295C1062580CD /* renderer.cpp in Sources */,
+				145645E36D4DD4F6BC9F71AB4F6F73D6 /* rive_common-dummy.m in Sources */,
+				3FB7410D452243E817D8CC958A2057C6 /* rive_counter.cpp in Sources */,
+				2D8418AA7E076DC1CBEC4BC0B19FD7DC /* rive_text.cpp in Sources */,
+				1523DDC75FA7EB9CFCD6B7A86826D8E2 /* RivePlugin.m in Sources */,
+				133379EAEAAD1576472704443CD0CDE2 /* SheenBidi.c in Sources */,
+				1E2D73EB99A43419F744209F4C2585D6 /* SwiftRivePlugin.swift in Sources */,
+				6580954591BCD41AD18D075E2110DCA1 /* text_engine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1028D0F96E1AF240E15058EBB5943B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = DCCAC4AB1C2053C02D65817AD6331261 /* PBXContainerItemProxy */;
+		};
+		7A4A381B33D428591009E5FBEE97E235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = rive_common;
+			target = E9C719E84F67F73FC0C74005C9B0C057 /* rive_common */;
+			targetProxy = D8811E20A7C90B0F239B30D4CF89F343 /* PBXContainerItemProxy */;
+		};
+		7D4700DB4D2F47EE522654A0349BC45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = F3321E33BAACA51C7234E275464B18A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123B0D65A35211FC43B8BEE770443D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16305DED6287C091E552682C3B64373A /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33BBF4CFBC80DB3F5572AB7914E3FCA2 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		4602945AE560863834B05D9D4DD503C7 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54913C57A7CA8F24D777171F4450181A /* rive_common.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/rive_common/rive_common-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/rive_common/rive_common-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/rive_common/rive_common.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = rive_common;
+				PRODUCT_NAME = rive_common;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9498D2532E60DBDF41603C51B60E35E8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16305DED6287C091E552682C3B64373A /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		A045C7A6D99F4F60840B1F19D32848E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA44239E05B4D682BA9075A277ADB41E /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB84E3CD493EF63541626736055FBB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD225F796F0175A720EF8272A7B7C1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D69A9085AF1534F4A154C29E18942A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54913C57A7CA8F24D777171F4450181A /* rive_common.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/rive_common/rive_common-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/rive_common/rive_common-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/rive_common/rive_common.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = rive_common;
+				PRODUCT_NAME = rive_common;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCF364D2CA5F270CAD355FD2FAFE3B13 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		EB6E3D6C83926E0BAF249295B35F9293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C25B59C6CF0F7489AA5EE24724158C /* rive_common.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/rakeshgowda/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/rive_common/rive_common-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/rive_common/rive_common-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/rive_common/rive_common.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = rive_common;
+				PRODUCT_NAME = rive_common;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DC68EA69D643CDCB5BE259E27030CB3 /* Build configuration list for PBXNativeTarget "rive_common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6E3D6C83926E0BAF249295B35F9293 /* Debug */,
+				4602945AE560863834B05D9D4DD503C7 /* Profile */,
+				D69A9085AF1534F4A154C29E18942A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				DCF364D2CA5F270CAD355FD2FAFE3B13 /* Profile */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78507EA3AAD16F3F78DD89B55A4E5516 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB84E3CD493EF63541626736055FBB3E /* Debug */,
+				33BBF4CFBC80DB3F5572AB7914E3FCA2 /* Profile */,
+				AD225F796F0175A720EF8272A7B7C1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A045C7A6D99F4F60840B1F19D32848E6 /* Debug */,
+				9498D2532E60DBDF41603C51B60E35E8 /* Profile */,
+				123B0D65A35211FC43B8BEE770443D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
